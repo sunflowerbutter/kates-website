@@ -10,25 +10,23 @@ export default function Bio() {
         things for the web.
       </p>
       <p className="text-base leading-7 text-zinc-600 dark:text-zinc-400">
-        A couple of sentences about your background, what you&rsquo;re
-        interested in, and what you&rsquo;re currently working on. Keep it
-        short — this is a portfolio, not a resume.
+        Electrical and Computer Engineering @ Princeton. 
       </p>
       <div className="flex gap-4 text-sm font-medium">
         <a
-          href="mailto:you@example.com"
+          href="kate.kligys@gmail.com"
           className="text-black underline underline-offset-4 dark:text-zinc-50"
         >
           Email
         </a>
         <a
-          href="https://github.com/your-username"
+          href="https://github.com/sunflowerbutter"
           className="text-black underline underline-offset-4 dark:text-zinc-50"
         >
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/your-username"
+          href="https://www.linkedin.com/in/katherine-kligys-766613231/"
           className="text-black underline underline-offset-4 dark:text-zinc-50"
         >
           LinkedIn

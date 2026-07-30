@@ -1,33 +1,48 @@
 export type Project = {
-  title: string;
-  description: string;
-  tags: string[];
-  liveUrl?: string;
-  repoUrl?: string;
-};
+    slug: string;
+    title: string;
+    blurb: string;
+    year: number;
+    tags: string[];
+    description: string;
+    liveUrl?: string;
+    repoUrl?: string;
+}
 
-// TODO: replace with your real projects
+//List of information about my projects
 export const projects: Project[] = [
   {
-    title: "Project One",
+    slug: "affiliation-bias-llm",
+    title: "Affiliation Bias in LLM Reviewed Abstracts",
+    blurb:
+      "A short, punchy description of what this project does and the problem it solves.",
+    year: 2023,
+    tags: ["Next.js", "TypeScript"],
     description:
       "A short, punchy description of what this project does and the problem it solves.",
-    tags: ["Next.js", "TypeScript"],
     liveUrl: "https://example.com",
     repoUrl: "https://github.com/your-username/project-one",
   },
   {
-    title: "Project Two",
+    slug: "comparative-political-bias",
+    title: "Comparative Political Bias Between Diagnostic LLMs and Primary Care Physicians",
+    blurb:
+      "A short, punchy description of what this project does and the problem it solves.",
+    year: 2023,
+    tags: ["React", "Node.js"],
     description:
       "A short, punchy description of what this project does and the problem it solves.",
-    tags: ["React", "Node.js"],
     repoUrl: "https://github.com/your-username/project-two",
   },
   {
-    title: "Project Three",
+    slug: "liver-detection-ml",
+    title: "Liver Detection ML",
+    blurb:
+      "A short, punchy description of what this project does and the problem it solves.",
+    year: 2023,
+    tags: ["Python"],
     description:
       "A short, punchy description of what this project does and the problem it solves.",
-    tags: ["Python"],
     liveUrl: "https://example.com",
   },
 ];
